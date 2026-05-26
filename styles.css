@@ -169,6 +169,13 @@
     border-radius: 7px;
     border-bottom: 3px solid rgb(64, 250, 64);
     opacity: 0;
+    margin-left: 20px;
+    font-size: clamp(1rem, 2.5vw, 1.5rem);
+
+    @media (width < 768px){
+        font-weight: 500;
+        padding: 10px 20px;
+    }
 }
 .msg-two-red{
     color: #fff;
@@ -185,6 +192,12 @@
     top: 20px;
     right: 30%;
     border-radius: 7px;
+    font-size: clamp(1rem, 2.5vw, 1.5rem);
+
+    @media (width < 768px){
+        font-weight: 500;
+        padding: 10px 20px;
+    }
 }
 .add_btn{
     padding: 7px 10px;
@@ -259,12 +272,13 @@
     width: min(450px, 100%);
     position: absolute;
     top: 50px;
-    right: 5;
+    right: 7;
     visibility: hidden;
     padding: 40px 25px 10px 30px;
     font-size: clamp(1rem, 2.5vw, 1.5rem);
 
     @media (width < 760px){
+        width: min(350px, 100%);
         padding: 40px 10px 10px 10px;  
     }
 }
@@ -294,6 +308,12 @@
     border-radius: 7px;
     border-bottom: 3px solid rgb(64, 250, 64);
     opacity: 0;
+    font-size: clamp(1rem, 2.5vw, 1.5rem);
+
+    @media (width < 768px){
+        font-weight: 500;
+        padding: 10px 20px;
+    }
 }
 label{
     font-size: 1.3rem;
