@@ -175,8 +175,6 @@ function submit(e){
        date_input.value === date_input.value &&
        time_input.value === time_input.value))
        { 
-        reuse = reuse;
-        update = update;
         console.log(update);
         message_two.style.opacity = "1";
         message_two.textContent = "Pls enter all fields!!";
