@@ -270,12 +270,12 @@
     flex-direction: column;
     background-color: #fff;
     border-radius: 10px;
-    width: min(450px, 100%);
+    width: min(400px, 100%);
     position: absolute;
     top: 50px;
-    right: 7px;
+    right: 5;
     visibility: hidden;
-    padding: 40px 25px 10px 30px;
+    padding: 40px 25px 10px 25px;
     font-size: clamp(1rem, 2.5vw, 1.5rem);
 
     @media (width < 400px){
