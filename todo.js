@@ -159,9 +159,15 @@ function submit(e){
        time_input.value = "";
        
 
-     } else if(input_task.value === "" &&
+     } else if((input_task.value === "" &&
        date_input.value === "" &&
-       time_input.value === "")
+       time_input.value === "") || (input_task.value === input_task.value &&
+       date_input.value === "" &&
+       time_input.value === "") || (input_task.value === "" &&
+       date_input.value === date_input.value &&
+       time_input.value === "") || (input_task.value === "" &&
+       date_input.value === "" &&
+       time_input.value === time_input.value))
        { 
         reuse = 1;
         update = 0;
