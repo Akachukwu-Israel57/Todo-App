@@ -191,9 +191,9 @@
     padding: 10px 30px;
     position: absolute;
     top: 20px;
-    right: 30%;
+    right: 25%;
     border-radius: 7px;
-    margin-left: 20px;
+    margin-left: 30px;
     font-size: clamp(1rem, 2.5vw, 1.5rem);
 
     @media (width < 768px){
