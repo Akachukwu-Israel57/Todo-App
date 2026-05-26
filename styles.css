@@ -340,6 +340,8 @@ label{
 .div_btn{
     position: relative;
     margin-block-start: 120px;
+    margin-inline-size: 0px;
+    padding: 0px 40px;
 }
 .clearInputs{
     position: absolute;
@@ -350,7 +352,7 @@ label{
     cursor: pointer;
     color: var(--color);
     background-color: #fff;
-    padding: 15px 30px;
+    padding: 15px 25px;
     font-size: 1rem;
 }
 .submitInputs{
@@ -362,7 +364,7 @@ label{
     cursor: pointer;
     color: #fff;
     background-color: var(--color);
-    padding: 15px 30px;
+    padding: 15px 25px;
     font-size: 1rem;
 }
 
