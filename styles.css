@@ -256,7 +256,7 @@
     flex-direction: column;
     background-color: #fff;
     border-radius: 10px;
-    width: min(650px, 100%);
+    width: min(450px, 100%);
     position: absolute;
     top: 50px;
     right: 5;
@@ -334,10 +334,6 @@ label{
     background-color: #fff;
     padding: 15px 30px;
     font-size: 1rem;
-
-    @media (width < 768px){
-        padding: 15px 20px;
-    }
 }
 .submitInputs{
     position: absolute;
@@ -350,10 +346,6 @@ label{
     background-color: var(--color);
     padding: 15px 30px;
     font-size: 1rem;
-    
-    @media (width < 768px){
-        padding: 15px 20px;
-    }
 }
 
 .cancel{
@@ -371,10 +363,6 @@ label{
     width: clamp(110px, 30%);
     text-align: center;
     margin-left: 10px;
-
-    @media (width < 768px){
-        padding: 15px 20px;
-    }
 }
 
 
