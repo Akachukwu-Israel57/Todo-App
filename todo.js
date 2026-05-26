@@ -107,13 +107,13 @@ cancel.addEventListener('click', back);
 
 function submit(e){
   e.preventDefault();
-  update++;
-  reuse++;
-     if ( update >= 1 &&
+     if (
        (input_task.value === input_task.value && input_task.value !== "") &&
        (date_input.value === date_input.value && date_input.value !== "") &&
        (time_input.value === time_input.value && time_input.value !== "")
      ) {
+         update++;
+         reuse++;
        taskInputContainer.style.visibility = "hidden";
        body.style.backgroundColor = "grey";
        container.style.backgroundColor = "#f1efef";
@@ -180,6 +180,8 @@ function submit(e){
         message_two.textContent = "Pls enter all fields!!";
         message_two.classList.replace("msg-two", "msg_two");
         setTimeout(()=> message_two.style.opacity = "0", 3000);
+        counter_one.textContent = update;
+        counter_two.textContent = reuse;
         
        }
        selectedItem();
