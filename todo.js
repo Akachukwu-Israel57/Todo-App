@@ -162,12 +162,14 @@ function submit(e){
      } else if(input_task.value === "" &&
        date_input.value === "" &&
        time_input.value === "")
-       {
+       { 
+        reuse = 1;
         console.log(update);
         message_two.style.opacity = "1";
         message_two.textContent = "Pls enter all fields!!";
         message_two.classList.replace("msg-two", "msg_two");
         setTimeout(()=> message_two.style.opacity = "0", 3000);
+        counter_two.textContent = reuse;
        }
        selectedItem();
 }
