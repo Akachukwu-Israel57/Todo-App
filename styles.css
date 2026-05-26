@@ -31,6 +31,7 @@
     font-family: Arial, Helvetica, sans-serif;
     min-height: 100vh;
     padding: 20px;
+    font-size: 15px;
 }
 
 .container {
@@ -272,13 +273,13 @@
     width: min(450px, 100%);
     position: absolute;
     top: 50px;
-    right: 7;
+    right: 7px;
     visibility: hidden;
     padding: 40px 25px 10px 30px;
     font-size: clamp(1rem, 2.5vw, 1.5rem);
 
-    @media (width < 760px){
-        width: min(350px, 100%);
+    @media (width < 400px){
+        right: 10px;
         padding: 40px 10px 10px 10px;  
     }
 }
