@@ -256,13 +256,17 @@
     flex-direction: column;
     background-color: #fff;
     border-radius: 10px;
-    width: min(400px, 100%);
+    width: min(500px, 100%);
     position: absolute;
     top: 50px;
     right: 10;
     visibility: hidden;
-    padding: 40px 15px 10px 25px;
+    padding: 40px 25px 10px 30px;
     font-size: clamp(1rem, 2.5vw, 1.5rem);
+
+    @media (width < 760px){
+        padding: 40px 10px 10px 10px;  
+    }
 }
 
 .headerAdd{
