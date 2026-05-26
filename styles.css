@@ -276,7 +276,7 @@
     top: 50px;
     right: 10px;
     visibility: hidden;
-    padding: 40px 15px 10px 40px;
+    padding: 40px 15px 10px 35px;
     font-size: clamp(1rem, 2.5vw, 1.5rem);
 
 }
@@ -341,7 +341,7 @@ label{
     position: relative;
     margin-block-start: 120px;
     margin-inline-size: 0px;
-    padding: 0px 40px;
+    padding: 0px 0px;
 }
 .clearInputs{
     position: absolute;
