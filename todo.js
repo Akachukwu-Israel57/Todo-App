@@ -180,8 +180,7 @@ function submit(e){
         message_two.textContent = "Pls enter all fields!!";
         message_two.classList.replace("msg-two", "msg_two");
         setTimeout(()=> message_two.style.opacity = "0", 3000);
-        counter_two.textContent = reuse;
-        counter_one.textContent = update;
+        
        }
        selectedItem();
 }
