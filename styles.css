@@ -274,7 +274,7 @@
     width: min(400px, 100%);
     position: absolute;
     top: 50px;
-    right: 10;
+    right: 10px;
     visibility: hidden;
     padding: 40px 5px 10px 20px;
     font-size: clamp(1rem, 2.5vw, 1.5rem);
