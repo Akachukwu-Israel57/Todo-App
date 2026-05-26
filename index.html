@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Todo App</title>
+</head>
+<body>
+
+    <div class="container">
+
+        <div class="wrapper">
+            <h1 class="header">Todo App</h1>
+            <h2 class="headerTwo">Add Tasks:</h2>
+            <span class="msg msg-two-red"></span>
+            <button class="add_btn" id="addBtn">Add</button>
+            <!-- TASKS SECTION -->
+            <h2 class="tasks"><span class="head_style">Tasks</span> Added</h2>
+            <div class="sub_div" id="subDiv">
+                <p class="count">
+                    <span class="numberOfTasks">0</span> tasks added.
+                </p>
+                <label for="select">Filter:</label>
+                <select name="Filter" id="select">
+                    <option value="all" id="all">All</option>
+                    <option value="active" id="active">Active</option>
+                    <option value="completed" id="completed">Completed</option>
+                </select>
+                <div class="div_tasks" id="divTask">
+                </div>
+            </div>
+        </div>
+
+        <!-- MODULAR DIV(DISPLAY DIV OVER MAIN DIV WHEN ACTIVE) -->
+        <form action="" class="addTask">
+            <span class="msg-two msg_two"></span>
+            <h2 class="headerAdd">Task <span class="taskNumber">0</span>:</h2>
+            <div class="task_input_container">
+                <label for="inputTask">Title: </label>
+                <input type="text" class="input" id="inputTask" placeholder="Task Title">
+            </div>
+            <div class="task_input_container">
+                <label for="dateInput">Date: </label>
+                <input type="date" class="input" id="dateInput">
+            </div>
+            <div class="task_input_container">
+                <label for="timeInput">Time: </label>
+                <input type="time" class="input" id="timeInput">
+            </div>
+            <div class="div_btn">
+                <input type="submit" class="cancel" id="cancel" value="cancel">
+                <input type="reset" class="clearInputs" id="clear" value="Clear">
+                <input type="submit" id="submit" class="submitInputs" value="Submit">
+            </div>
+        </form>
+    </div>
+    <script src="todo.js"></script>
+</body>
+</html>
