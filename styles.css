@@ -279,6 +279,10 @@
     padding: 40px 15px 10px 35px;
     font-size: clamp(1rem, 2.5vw, 1.5rem);
 
+    @media (width < 360px){
+        padding: 40px 15px 10px 20px;
+    }
+
 }
 
 .headerAdd{
