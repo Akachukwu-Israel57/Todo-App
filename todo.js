@@ -66,7 +66,7 @@ function clear(e){
       input_task.value = "";
       date_input.value = "";
       time_input.value = "";
-      message_two.textContent = "Deleted! Enter Fields!";
+      message_two.textContent = "Enter Fields!";
       message_two.style.opacity = "1";
       message_two.classList.replace("msg-two", "msg_two");
       setTimeout(() => message_two.style.opacity = "0", 3000);
